@@ -17396,7 +17396,7 @@ return a>c?c:a},
 aaM(a){var s=0,r=A.t(t.C1),q,p,o,n,m,l
 var $async$aaM=A.o(function(b,c){if(b===1)return A.p(c,r)
 while(true)switch(s){case 0:s=3
-return A.z($.Nt().a1M(B.e.i(a)+".txt"),$async$aaM)
+return A.z($.Nt().a1M("assets/"+B.e.i(a)+".txt"),$async$aaM)
 case 3:m=c
 l=A.a([],t.q_)
 for(p=J.aE(B.Z.d8(0,m));p.q();){o=p.gw(p)
