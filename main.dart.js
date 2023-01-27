@@ -19480,7 +19480,7 @@ g=j*0.017453292519943295
 n=(g-h)/2
 m=(i*0.017453292519943295-m*0.017453292519943295)/2
 f=Math.sin(n)*Math.sin(n)+Math.cos(h)*Math.cos(g)*Math.sin(m)*Math.sin(m)
-if(6371e3*(2*Math.atan2(Math.sqrt(f),Math.sqrt(1-f)))<1e4){c.push(new A.cp(A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),",")+2,J.cD(J.aC(k.i(o,"coordinates")),"]"))),A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),"-"),J.cD(J.aC(k.i(o,"coordinates")),",")))))
+if(6371e3*(2*Math.atan2(Math.sqrt(f),Math.sqrt(1-f)))<15e3){c.push(new A.cp(A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),",")+2,J.cD(J.aC(k.i(o,"coordinates")),"]"))),A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),"-"),J.cD(J.aC(k.i(o,"coordinates")),",")))))
 b.W(0,new A.cp(A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),",")+2,J.cD(J.aC(k.i(o,"coordinates")),"]"))),A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),"-"),J.cD(J.aC(k.i(o,"coordinates")),",")))),new A.aiz(o))
 n=A.b([$.SE(),new A.cp(A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),",")+2,J.cD(J.aC(k.i(o,"coordinates")),"]"))),A.hd(J.hk(J.aC(k.i(o,"coordinates")),J.cD(J.aC(k.i(o,"coordinates")),"-"),J.cD(J.aC(k.i(o,"coordinates")),","))))],d)
 m=A.aA()
@@ -64807,7 +64807,7 @@ q.toString
 l=A.uh(5)
 o=B.t.i(0,200)
 o.toString
-o=A.nH(A.b([B.zG,A.em(" Users per Outage",A.dP(f,f,o,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f)],k),B.af,B.bJ,B.a8)
+o=A.nH(A.b([B.zG,A.em(" User impact per Outage",A.dP(f,f,o,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f)],k),B.af,B.bJ,B.a8)
 n=" 250+ - "+B.e.j($.jr[0])
 p=B.t.i(0,200)
 p.toString
